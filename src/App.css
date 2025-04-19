@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+nav a {
+    font-size: medium;
+    font-weight: bold;
+}
+
+nav a.active{
+    color: blue;
+}
+
+a:hover{
+    color: blue;
+}
+
